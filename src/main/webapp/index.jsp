@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="com.popcorn.Movie" %>
+<%@ page import="java.util.ArrayList" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,50 +54,21 @@
     </div>
     
     <div class="cardsection">
+    <%
+    	ArrayList<Movie> movies = (ArrayList<Movie>)request.getServletContext().getAttribute("movies");
+    	System.out.println(movies.size());
+    	for(Movie a:movies){
+    		
+    %>
         <div class="card" style="background-image: url();">
             <div class="set">
-                <h4>Title</h4>
+                <h4><%@=a.getTitle %></h4>
                 <p>something...</p>
-                <p>ratings:</p>
+                <p>ratings: <%@=a.getRating %> </p>
             </div>
         </div>
-        <div class="card" style="background-image: url();">
-            <div class="set">
-                <h4>Title</h4>
-                <p>something...</p>
-                <p>ratings:</p>
-            </div>
-        </div>
-        <div class="card" style="background-image: url();">
-            <div class="set">
-                <h4>Title</h4>
-                <p>something...</p>
-                <p>ratings:</p>
-            </div>
-        </div>
-        <div class="card" style="background-image: url();">
-            <div class="set">
-                <h4>Title</h4>
-                <p>something...</p>
-                <p>ratings:</p>
-            </div>
-        </div>
-        <div class="card" style="background-image: url();">
-            <div class="set">
-                <h4>Title</h4>
-                <p>something...</p>
-                <p>ratings:</p>
-            </div>
-        </div>
-        <div class="card" style="background-image: url();">
-            <div class="set">
-                <h4>Title</h4>
-                <p>something...</p>
-                <p>ratings:</p>
-            </div>
-        </div>
-        
-        
+	<%} %>
+	
     </div>
     <footer></footer>
 </body>
