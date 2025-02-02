@@ -36,9 +36,8 @@ public class Login extends HttpServlet {
 			ResultSet rs = queryStatement.executeQuery();
 			if(rs.next()) {
 				System.out.println("User Exists");
-				request.getRequestDispatcher("home").include(request, response);
-			}
-			else {
+				request.getRequestDispatcher("home").forward(request, response);
+			}else {
 				System.out.println("User does not exist");
 				request.getRequestDispatcher("login").forward(request, response);
 			}
