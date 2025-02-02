@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #de5454;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.nav{
+    background-color: #370a46;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h2{
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.nav img{
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    cursor: pointer;
+}
+
+
+.searchcont{
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    align-items: baseline;
+    width: 60%;
+}
+
+input{
+    appearance: none;
+	border: none;
+	outline: none;
+    text-decoration: none;
+    width: 90%;
+    font-size: 15px;
+}
+
+.caros{
+    background-color: #370a46;
+    padding: 10px 0px 15px 10px;
+}
+
+button{
+    appearance: none;
+	border: none;
+	outline: none;
+    text-decoration: none;
+    background-color:#370a4600;
+}
+
+.buttonset button{
+    appearance: none;
+	border: none;
+	outline: none;
+    text-decoration: none;
+    background-color:#370a4600;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+.buttonset button:hover{
+    transition: 0.5s;
+    transform: translateY(-2px);
+    background-color: #de5454;
+    
+}
+
+
+.mega{
+    display: flex;
+}
+.rightpanel{
+    /* border: white solid; */
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.profileinfo , .paymentoption{
+    border-radius: 10px;
+    background-color: #370a46;
+    margin:  20px 20px 20px 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.434);
+}
+td{
+    /* border: white solid; */
+    width: 400px;
+}
+.imp{
+    color: yellow;
+}
+#pe{
+    text-align: right;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p{
+    text-align: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#opacity{
+    color: rgba(255, 255, 255, 0.614);
+}
+p{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paymentoption{
+    display: flex;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    /* font-size: 10px; */
+    /* background-color: #370a46; */
+    margin: 2px 10px 2px 2px;
+    padding: 10px;
+    border-radius: 8px;
+}
+a:hover{
+    background-color: #de5454;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+
+.linksdisplay{
+    border-left: #ffffff4e solid;
+    display: flex;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+.leftpanel{
+    /* border: white solid; */
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    margin-top: 50px;
+}
+.imagecont{
+    border: white solid;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    background-color: #370a46;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.matter{
+    /* border: white solid; */
+    /* padding: 10px; */
+    color: white;
+    /* width: 200px; */
+    cursor: pointer;
+}
+.infolist{
+    display: flex;
+}
+
+.matter h4, h3, p{
+    margin: 0;
+    padding: 0;
+    /* text-align: right; */
+}
+.matter h4{
+    color: rgba(255, 255, 255, 0.559);
+    margin: 3px 0px;
+}
+.matter h3{
+    font-size: 35px;
+    font-family:serif;
+    margin: 5px 0px;
+    color: yellow;
+}
+.matter p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align:justify;
+    margin: 10px 0px;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+
+.bottom{
+    margin-top: 20px;
+}
+
+.bottom button{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.bottom button:hover{
+    transition: 0.3s;
+    background-color: #370a46;
+    color: #de5454;
+}
+
+footer{
+    background-color: #1f1423;
+    height: 200px;
+}

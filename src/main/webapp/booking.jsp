@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Booking</title>
 <link rel="stylesheet" href="./Styles/booking.css" "text/css">
+<script src="./scripts/index.js"></script>
 </head>
 <body>
     <div class="nav">
