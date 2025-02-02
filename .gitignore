@@ -1,3 +1,8 @@
 Deployment Descriptor:Popcorn
 JAX-WS Web Services
 build
+src/main/webapp/assets
+.settings
+.classpath
+.gitignore
+.project
